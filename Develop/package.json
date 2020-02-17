@@ -2,16 +2,17 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node public/assets/js/script.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon public/assets/js/script.js"
+    "watch": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "jquery": "^3.4.1",
     "path": "^0.12.7"
   }
 }
